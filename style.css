@@ -1,0 +1,66 @@
+body
+{
+    background-image: url("lsda.jpg");
+}
+
+.table 
+{
+   border: 3px solid green;  
+   text-align: center;
+}
+
+th
+{
+    border: 3px solid green;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center !important;
+}
+
+.btn
+{
+    border: grey !important;
+    background-color: green !important;
+    color: black !important;
+}
+
+td
+{
+    border: 2px solid green;
+}
+
+.paire:nth-child(even)
+{
+    background-color: rgb(194, 189, 189);
+    color: black;
+}
+
+.container 
+{
+    width: 80%;
+}
+
+.genre
+{
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0%;
+    background-color: green;
+}
+
+.formulaire
+{
+    padding-left: 16%;
+    padding-top: 1%;
+}
+
+#filter_distrib, #filter_genre
+{
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+
